@@ -1,0 +1,27 @@
+#providing name for the file to be created
+filename = raw_input("Give name for the file: ")
+file = open (filename, 'a') ## a will append, w will over-write 
+#providing the content for the file
+
+body = raw_input("What would you like in your body paragraph?:  ")
+title = raw_input("What would you like as your title ")
+
+#writing the entered content to the file we just created
+print "entered three lines are written to the file"
+file.write('<!DOCTYPE html>')
+file.write('<html>')
+file.write('\n<head>')
+file.write('\n<title>')
+file.write(title)
+file.write('</title>')
+file.write('\n</head>')
+file.write('\n<body>')
+file.write('\n<p>')
+file.write(body)
+file.write('\n</p>')
+file.write('</body>')
+file.write('</html')
+
+#providing information that writing task is completed
+print "we have added those text to the file"
+file.close()
