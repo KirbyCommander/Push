@@ -8,4 +8,3 @@ def diction(word):
     print snippet[0]
     print snippet[1]
 
-diction('jew')
