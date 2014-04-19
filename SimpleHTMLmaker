@@ -8,7 +8,7 @@ body = raw_input("What would you like in your body paragraph?:  ")
 title = raw_input("What would you like as your title ")
 
 #Writing the title and body to the file we just created
-print "entered three lines are written to the file"
+print "enter the desired information to be added to the file"
 file.write('<!DOCTYPE html>')
 file.write('<html>')
 file.write('\n<head>')
