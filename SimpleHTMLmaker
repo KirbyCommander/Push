@@ -21,7 +21,7 @@ file.write('\n<p>')
 file.write(body)
 file.write('\n</p>')
 file.write('</body>')
-file.write('</html')
+file.write('</html>')
 
 #Providing information that writing task is completed
 print "The text pieces have been added to the file"
